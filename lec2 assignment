@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="icon" href="https://via.placeholder.com/16" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a student taking the Web Programming course. This page is built using pure HTML to demonstrate structural semantic elements, responsive images, and accessible tables.</p>
+            
+            <h3>Standard Image</h3>
+            <img src="https://via.placeholder.com/300x200" alt="Sample Profile Placeholder" width="300" height="200">
+
+            <h3>Responsive Image</h3>
+            <picture>
+                <source media="(min-width: 800px)" srcset="https://via.placeholder.com/800x400">
+                <source media="(min-width: 400px)" srcset="https://via.placeholder.com/400x200">
+                <img src="https://via.placeholder.com/300x150" alt="Responsive Banner Image">
+            </picture>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML5 & Web Standards</li>
+                <li>MySql</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <section id="courses">
+            <h2>Courses This Semester</h2>
+            <ol>
+                <li>Web Programming</li>
+                <li>OS</li>
+                <li>Data Structures & Algorithms</li>
+            </ol>
+        </section>
+
+        <section id="schedule">
+            <h2>Weekly Class Schedule</h2>
+            <table border="1">
+                <caption>Weekly Class Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Subject</th>
+                        <th>Room</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Sunday</td>
+                        <td>09:00 AM - 11:00 AM</td>
+                        <td>Web Programming</td>
+                        <td>Lab 3</td>
+                    </tr>
+                    <tr>
+                        <td>11:15 AM - 01:15 PM</td>
+                        <td>OS</td>
+                        <td>Hall A</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>10:00 AM - 12:00 PM</td>
+                        <td>Data Structures</td>
+                        <td>Lab 1</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td colspan="3">Study / Project Day (No Lectures)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Student Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
