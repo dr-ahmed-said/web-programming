@@ -1,0 +1,38 @@
+Task 1: Research — Difference Between the Internet and the World Wide Web
+
+The Internet and the World Wide Web (WWW) are closely related, but they are not the same thing.
+
+The Internet is a global network that connects millions of computers, smartphones, servers, and other devices around the world. It allows devices to communicate and exchange information using networking protocols such as TCP/IP. The Internet supports many services, including email, online gaming, video calls, file sharing, and the World Wide Web.
+
+The World Wide Web is a service that operates over the Internet. It consists of interconnected websites, web pages, images, videos, and other online resources that users can access through web browsers such as Google Chrome, Safari, and Firefox. Web technologies such as HTML, CSS, JavaScript, HTTP, and URLs help browsers request and display web content.
+
+For example, when a user visits YouTube, the Internet provides the connection between the user's device and YouTube's servers, while the World Wide Web allows the user to access and interact with the website.
+
+Another important difference is that the Internet existed before the World Wide Web. The Internet developed over several decades, while Tim Berners-Lee invented the World Wide Web in 1989. The Web later became publicly available in the early 1990s.
+
+In conclusion, the Internet is the global network infrastructure, while the World Wide Web is one of the services that uses this infrastructure. Both are important parts of modern communication and information sharing.
+
+Task 2: Research — Web 3.0
+
+Web 3.0 is an emerging vision of the Internet that aims to make online services more decentralized, transparent, and user-controlled. It differs from Web 2.0 in how applications and digital information can be managed.
+
+Web 2.0 focuses on user-generated content, interaction, and collaboration through platforms such as Facebook, Instagram, and YouTube. However, these platforms are usually controlled by centralized companies that manage their services and user data. Web 3.0 aims to give users more control over their digital assets and online interactions through decentralized technologies.
+
+Several technologies support Web 3.0. Blockchain is a distributed digital ledger that records transactions across a network. Smart contracts are programs stored on a blockchain that automatically execute predefined rules when specific conditions are met. Decentralized applications, known as dApps, use blockchain-based infrastructure to provide services without relying entirely on a central authority. Digital wallets and cryptocurrencies are also used in some Web 3.0 applications.
+
+In my opinion, Web 3.0 has the potential to improve digital ownership, transparency, and user control. It may create new opportunities in finance, gaming, and digital identity. However, it still faces challenges such as security risks, scalability, complicated user experiences, and regulatory uncertainty. I believe Web 3.0 will develop gradually rather than completely replace Web 2.0. Its success will depend on whether it can provide practical benefits and become easier and safer for ordinary users.
+
+## Task 3: Explore — Inspect Network Requests
+
+Objective: To inspect network requests using the browser's Developer Tools and record their methods, status codes, and content types.
+
+
+
+Results:
+
+| Request   | Method | Status Code | Content-Type           |
+| --------- | ------ | ----------- | ---------------------- |
+| Request 1 | GET    | 200         | text/html              |
+| Request 2 | GET    | 200         | text/css               |
+| Request 3 | GET    | 200         | application/javascript |
+
