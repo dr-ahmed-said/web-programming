@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tech Blog - Ahmed Ashraf</title>
+    <meta name="description" content="A semantic HTML blog page for Web Programming lab assignment at Elsewedy University of Technology.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="main-header">
+        <h1>Tech Insights &amp; Innovations</h1>
+        <p>Official Blog of Ahmed Ashraf Ahmed | Student ID: 250100883</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Layout Container -->
+    <div class="container">
+        
+        <!-- Main Content Area -->
+        <main>
+            <article class="post-card">
+                <h2>Exploring Semantic HTML5 and Web Accessibility</h2>
+                <img src="https://via.placeholder.com/600x300" alt="Illustration of HTML5 semantic structure and web design" class="featured-img">
+                <p>Semantic HTML introduces tags that clearly describe their meaning to both the browser and the developer. Using semantic tags like article, section, and nav improves search engine optimization (SEO) and web accessibility for screen readers.</p>
+            </article>
+
+            <article class="post-card highlight">
+                <h2>Modern CSS Styling Techniques and External Stylesheets</h2>
+                <img src="https://via.placeholder.com/600x300" alt="Code editor showing clean CSS rules and selectors" class="featured-img">
+                <p>Separating content from presentation is a fundamental principle of web development. External stylesheets allow developers to maintain consistency across multiple pages while keeping HTML markups clean and readable.</p>
+            </article>
+        </main>
+
+        <!-- Sidebar Area -->
+        <aside class="sidebar">
+            <h3>Search Blog</h3>
+            <form action="#" method="get">
+                <label for="site-search">Search articles:</label>
+                <input type="search" id="site-search" name="q" placeholder="Search tech posts...">
+            </form>
+
+            <div class="sidebar-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="https://validator.w3.org" target="_blank" rel="noopener">W3C HTML Validator</a></li>
+                    <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener">W3C CSS Validator</a></li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Footer Area -->
+    <footer>
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    
+                    <p>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" autocomplete="name" required>
+                    </p>
+                    
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </p>
+
+                    <p>
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </p>
+
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <p class="copyright">&copy; 2026 Ahmed Ashraf Ahmed. All rights reserved. | Elsewedy University of Technology</p>
+    </footer>
+
+</body>
+</html>

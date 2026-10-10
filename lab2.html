@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Ashraf - Personal Webpage</title>
+    <link rel="icon" href="https://via.placeholder.com/32" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#schedule">Class Schedule</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Header Section -->
+    <header id="about">
+        <h1>Ahmed Ashraf Ahmed</h1>
+        <p>Student ID: 250100883 | Elsewedy University of Technology</p>
+        <p>Welcome to my personal webpage created using pure HTML5 markup!</p>
+    </header>
+
+    <!-- Image Section -->
+    <section>
+        <h2>Profile Photo</h2>
+        <img src="https://via.placeholder.com/300x200" alt="Ahmed Ashraf Profile Photo" width="300" height="200">
+        
+        <h3>Responsive Image Section</h3>
+        <picture>
+            <source media="(min-width: 800px)" srcset="https://via.placeholder.com/800x400">
+            <source media="(min-width: 450px)" srcset="https://via.placeholder.com/500x300">
+            <img src="https://via.placeholder.com/300x200" alt="Responsive Banner Image" loading="lazy">
+        </picture>
+    </section>
+
+    <!-- Lists Section -->
+    <section id="interests">
+        <h2>My Favorite Subjects (Ordered List)</h2>
+        <ol>
+            <li>Web Programming</li>
+            <li>Cyber &amp; Information Security</li>
+            <li>Data Structures &amp; Algorithms</li>
+        </ol>
+
+        <h2>My Hobbies &amp; Skills (Unordered List)</h2>
+        <ul>
+            <li>Software Development</li>
+            <li>Linux System Administration</li>
+            <li>Audio Editing &amp; Music Production</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Schedule Table Section -->
+    <section id="schedule">
+        <h2>Weekly Class Schedule</h2>
+        <table border="1">
+            <caption>Fall 2026 Academic Schedule</caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Course Name</th>
+                    <th>Room / Lab</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Sunday</td>
+                    <td>09:00 AM - 11:00 AM</td>
+                    <td>Web Programming</td>
+                    <td>Lab 12</td>
+                </tr>
+                <tr>
+                    <td>11:30 AM - 01:30 PM</td>
+                    <td>Cyber &amp; Information Security</td>
+                    <td>Lab 04</td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>10:00 AM - 01:00 PM</td>
+                    <td>Data Structures &amp; Algorithms</td>
+                    <td>Hall B</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Tuesday &amp; Wednesday</td>
+                    <td colspan="2">Self-Study &amp; Practical Projects</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ahmed Ashraf. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
